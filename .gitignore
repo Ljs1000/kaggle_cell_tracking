@@ -1,0 +1,24 @@
+# data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# models
+models/*
+!models/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# jupyter
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+
+Then add empt
